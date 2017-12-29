@@ -5,7 +5,6 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
 def get_counts_and_averages(ID_and_ratings_tuple):
     """Given a tuple (movieID, ratings_iterable) 
     returns (movieID, (ratings_count, ratings_avg))
