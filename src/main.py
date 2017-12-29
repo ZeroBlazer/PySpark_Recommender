@@ -34,7 +34,7 @@ def create_app(spark_context, dataset_path):
 if __name__ == "__main__":
     # Init spark context and load libraries
     sc = init_spark_context()
-    dataset_path = os.path.join('..', 'data', 'ml-latest-small')
+    dataset_path = os.path.join('..', 'data', 'ml-20')
     app = create_app(sc, dataset_path)
 
     print("RECOMMENDER STARTED!!! >>>")
